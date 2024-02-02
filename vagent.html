@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          body {
+            width: 100%;
+            min-height: 100vh;
+            background: url(bg.jpg) top center;
+            background-size: cover;
+            position: relative;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+          }
+
+          .fade-in {
+            animation: fadeInAnimation 1s ease-in-out forwards;
+          }
+
+          @keyframes fadeInAnimation {
+            from {
+            opacity: 0;
+            }
+            to {
+            opacity: 1;
+            }
+          }
+          h1{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+          }
+          h2{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+          }
+          p{
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            margin-left: 15px;
+            font-size: large;
+          }
+          li{
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: medium;
+          }
+          footer{
+              color: white;
+              text-align: center;
+              text-decoration: underline;
+          }
+        </style>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">        
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <img src="D:\CODE\H\BOOTSTRAP\NOTES\LOGO\LOGO-removebg-preview.png" alt="Avatar Logo" style="width:80px;" class="rounded-pill"> 
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">GAME REVIEW BLOG</a>
+              <img src="https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg" alt="Support Django!" style="height: 50px;">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="file:///D:/CODE/H/myWeb/gblog.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Aditya-Desai09">GITHUB</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      GAMES_LINKS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://playvalorant.com/en-gb/">VALORANT</a></li>
+                      <li><a class="dropdown-item" href="https://www.warframe.com/landing">WARFRAME</a></li>
+                      <li><a class="dropdown-item" href="https://overwatch.blizzard.com/en-us/">OVERWATCH-2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See all</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      GAME INFO
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li> <a class="dropdown-item" href="file:///D:/CODE/H/myWeb/vagent.html">AGENTS</a></li>
+                      <li><a class="dropdown-item" href="file:///D:/CODE/H/myWeb/vmap.html">MAPS</a></li>
+                      <li><a class="dropdown-item" href="file:///D:/CODE/H/myWeb/vmode.html">MODES</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+
+    </head>
+
+    <body class="fade-in">
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Images Column -->
+          <div class="col-md-6 mb-4">
+            <img src="C:\Users\SHADOW\Pictures\GRB\012422_WIV_2_Roles_Updated.jpg" class="img-fluid mb-3" alt="Image 1">
+          </div>
+      
+          <!-- Text Column -->
+          <div class="col-md-6 mb-4">
+            <h2 style="color: white;">ROLES:</h2>
+            <p>
+              <ul>
+              <li>There are a total of four Valorant roles in the game.</li>
+              <li>The Valorant roles are Duelist, Initiator, Sentinel, and Controller.</li>
+              <li>Each role has responsibilities that are integral to winning the game.</li>
+              <li>Your abilities are geared towards helping you fulfill your role but won't limit you in-game.</li>
+              </ul>
+            </p><br>
+            <p>DUALISTS :
+              <ul><li>Duelists act as the entry fraggers of each team. They generally play aggressively and look for early picks and opportunities to kill. Most of a Duelist's abilities are geared toward getting kills and dealing damage.</li></ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+      <p>CONTROLLER :
+        <ul><li>The Controllers are up next, and I don't mean the ones with joysticks. Controllers or more commonly known as “smokers,” are the ones primarily responsible for blocking vision and creating space by zoning enemies out.</li></ul>
+      </p><br>
+      <p>Initiators :
+        <ul><li>Initiators are a literal definition of setting your team up for success. They are great at gathering information and using their skills to assist their allies. They make their team's life easier by helping them get kills or helping them make decisions.</li></ul>
+      </p><br>
+      <p>Sentinels :
+        <ul><li>The final role is the Sentinel. Sentinels are known as being insane defensive strongholds. They are the main star on the defending side and can hold an enemy team down and prevent them from gaining space.</li></ul>
+      </p><br>
+      <h2 style="color: white;">AGENTS:</h2>
+      <p>
+      <ul><li>Picking your Agent to main, or even which Agent to unlock, can be challenging for new players, so we're going to break things down to make your decision easier. VALORANT currently has 23 Agents, as of DECEMBER 2023. Each agent comes with four unique abilities that you can use to mislead, outflank, and decimate your enemies.</li></ul>
+      </p><br><br>
+      <p>LIST OF AGENTS:
+      <ul>
+        <li><a href="#section-1">Brimstone</a></li>
+        <li><a href="#section-2">Pheonix</a></li>
+        <li><a href="#section-3">Sage</a></li>
+        <li><a href="#section-4">Sova</a></li>
+        <li><a href="#section-5">Viper</a></li>
+        <li><a href="#section-6">Cypher</a></li>
+        <li><a href="#section-7">Reyna</a></li>
+        <li><a href="#section-8">Kiljoy</a></li>
+        <li><a href="#section-9">Breach</a></li>
+        <li><a href="#section-10">Omen</a></li>
+        <li><a href="#section-11">Jett</a></li>
+        <li><a href="#section-12">Raze</a></li>
+        <li><a href="#section-13">Skye</a></li>
+        <li><a href="#section-14">Yoru</a></li>
+        <li><a href="#section-15">Astra</a></li>
+        <li><a href="#section-16">KAY/O</a></li>
+        <li><a href="#section-17">Chamber</a></li>
+        <li><a href="#section-18">Neon</a></li>
+        <li><a href="#section-19">Fade</a></li>
+        <li><a href="#section-20">Harbor</a></li>
+        <li><a href="#section-21">Gekko</a></li>
+        <li><a href="#section-22">Deadlock</a></li>
+        <li><a href="#section-23">ISO</a></li>
+      </ul>
+
+
+
+      <h2 id="section-1" style="color: white;">BRIMSTONE</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\brim.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Brimstone is a tactician who controls the map using his smokes and buffs his allies. His Incendiary and Orbital Strike abilities are also amazing in post-plant situations to prevent the enemy from defusing the Spike.
+            </p>
+            <p>
+              <ul>
+              <li>Incendiary (Q) : Brimstone employs the Incendiary launcher to deploy a grenade that, after a brief delay, erupts into a fiery zone often known as the molly. This area inflicts substantial damage over time to anyone within it.</li>
+              <li>Stim Beacon (C) : Rapidly dispatch a Combat Stim Beacon, instantly providing a speed boost, reload speed enhancement, and increased fire rate to any teammate within its area of effect.</li>
+              <li>Sky Smoke (E) (Signature) : Utilize the tactical map to designate specific areas, prompting Brimstone to release smoke bombs that envelop a vast space for an extended duration. This dense smoke obstructs vision for individuals both inside and outside its boundaries.</li>
+              <li>Orbital Strike (X) (Ultimate) : Access the tactical map to pinpoint a location, triggering Brimstone to initiate an Orbital Strike at the marked point. This powerful strike damages and obstructs vision for anyone within its area, including both adversaries and allies, while also eliminating utility or objects in its path.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+      
+
+      <h2 id="section-2"style="color: white;">PHEONIX</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\pheonix.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Phoenix is the cocky Brit who shoots first and asks questions never. His kit is about getting in close with the enemy and taking them out.
+            </p>
+            <p>
+              <ul>
+              <li>Hot Hands (Signature) : Unleash a fireball that detonates upon impact, causing damage to anyone within the fiery zone. Phoenix benefits from healing when standing in the flames, and this ability is commonly referred to as a Molly.</li>
+              <li>Run it Back (Ultimate) : Upon activation, Phoenix becomes impervious to death when reaching zero health. Instead, he respawns instantly at the location where Run it Back was initiated. This effect persists for 10 seconds unless Phoenix is eliminated, after which he reverts to the origin point. Phoenix's health is fully restored, and his armor resets to its state at the onset of Run it Back.</li>
+              <li>Blaze (Basic) : Create a controllable wall of fire using your crosshair. Opponents passing through it suffer damage, while Phoenix experiences healing if he traverses or remains within the flames.</li>
+              <li>Curveball (Basic) : Hurl a short-range flare orb that curves either left or right, blinding enemies upon impact.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-3"style="color: white;">SAGE</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\SAGE.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Often considered a support Agent, Sage excels at supporting her allies and blocking off entire routes with her wall.
+            </p>
+            <p>
+              <ul>
+              <li>Slow Orb (Basic) : Launch an orb that transforms into a decelerating field upon landing. Entities within the field experience reduced movement speed.</li>
+              <li>Barrier Orb (Basic) : Generate a substantial three-part destructible wall at a specified location. The wall's orientation can be adjusted using the alternate fire command.</li>
+              <li>Healing Orb (Signature) : Designate an ally for a healing boost of 100 HP, or choose self-targeting to restore 30 HP. Healing is contingent upon maintaining a clear line of sight to the ally.</li>
+              <li>Resurrection (Ultimate) : Bring a deceased ally back to life, fully restoring their health.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-4"style="color: white;">SOVA</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\Sova.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Sova brings a bow to a gun fight, but it's not without its benefits. Using his bow, he gathers information and can send out damage from around corners.
+            </p>
+            <p>
+              <ul>
+              <li>Owl Drone (Basic) : Activate an Owl Drone from your location, granting a first-person view for control. While piloting the drone, you can shoot an enemy with a revealing dart to expose their position. The Owl Drone is vulnerable and can be destroyed by enemies.</li>
+              <li>Shock Bolt (Basic) : Release a Shock Bolt from your bow, dealing damage to enemies in its blast radius. Similar to the Recon Bolt, you can customize the shot's power and number of bounces.</li>
+              <li>Recon Bolt (Signature) : Equip a Recon Bolt, specifying the number of bounces and shot power before release. Upon landing, the Recon Bolt emits scanning pulses, revealing enemy positions within its line of sight. Enemies can thwart the Recon Bolt to prevent detection.</li>
+              <li>Hunter's Fury (Ultimate) : Unleash three potent, long-range energy blasts that inflict damage, mark, and slow any caught enemies. This formidable ability penetrates through all terrain.Can cast up to a maximum of 3 strikes.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-5"style="color: white;">VIPER</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\VIPER.webp" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Viper is a deadly chemist who uses poison to defeat her enemies. She is one of the most versatile Agents and brings a lot of value to the team.
+            </p>
+            <p>
+              <ul>
+              <li>Poison Cloud (Basic) : Release a compact emitter that, when activated, forms a Poison Cloud (smoke). Viper has the option to retrieve and redeploy the emitter after a brief delay.</li>
+              <li>Snake Bite (Basic) : Equip a Snake Bite and propel it towards a designated area. Upon impact, the projectile fractures, creating a poisonous region that inflicts damage over time and renders enemies vulnerable. This ability is akin to a Molly.</li>
+              <li>Toxic Screen (Signature) : Deploy a series of emitters capable of penetrating terrain, forming a Toxic Screen upon activation. The wall can be toggled on and off at will.</li>
+              <li>Viper's Pit (Ultimate) : Generate an expansive gas cloud emanating from Viper, covering a broad area. Enemies entering Viper's Pit suffer from Decay and are revealed to Viper. The Pit persists indefinitely if Viper remains inside but lasts for 8 seconds if she exits. Dying also deactivates the Viper's Pit.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-6"style="color: white;">CYPHER</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\CYPER.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Another mysterious Agent who deals in the unknown, Cypher is all about gathering information through various means in order to enable his team.
+            </p>
+            <p>
+              <ul>
+              <li>Cyber Cage (Basic) : Throw a Cyber Cage that, when activated, generates a cylindrical smoke. Upon enemies passing through the Cyber Cage, an audio cue alerts allies to the enemy's presence.</li>
+              <li>Trapwire (Basic) : Set up a concealed, destructible Trapwire at a chosen location. If triggered by an enemy, it slows, reveals, and concusses them unless they dismantle the Trapwire.</li>
+              <li>Spycam (Signature) : Position a Spycam at a designated spot. Upon placement, activate the ability to enter its point of view (POV). While in Spycam POV, you can launch a dart that reveals any enemy it hits. The Spycam is retrievable and can be repositioned.</li>
+              <li>Neural Theft (Ultimate) : Hurl your hat at an enemy corpse to download information on the rest of the enemy team. This reveals their locations to your entire team, twice.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-7"style="color: white;">REYNA</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\REYNA.webp" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Reyna is one of the simplest Agents. Her kit is very selfish and centered around her own gameplay. She requires good gunplay to be effective.
+            </p>
+            <p>
+              <ul>
+              <li>Leer (Basic) : Dispatch an ethereal, destructible eye that imposes nearsight on any enemies within its line of sight.</li>
+              <li>Dismiss (Signature/Basic) : Utilize a Soul Orb left by an enemy to enter an untargetable state briefly. In the presence of Empress, Reyna becomes invisible instead.</li>
+              <li>Devour (Signature) : Absorb a Soul Orb left by an enemy to swiftly heal Reyna. This ability allows Reyna to surpass her maximum health to 150, but any excess health beyond 100 will gradually decay over time. During Empress activation, Devour is cast automatically, but the Soul Orb remains unconsumed.</li>
+              <li>Empress (Ultimate) : Reyna enters a frenzied state gaining an increased firing rate, equip and reload speeds, and gains infinite charges of Devour and Dismiss.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-8"style="color: white;">KILLJOY</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\KJ.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Using an army of mechanical companions, Killjoy locks down sites and booby traps area in order to make the enemy regret entering her territory. Players should note that all of Killjoy's bots are destructible.
+            </p>
+            <p>
+              <ul>
+              <li>Alarmbot (Basic) : Deploy an Alarmbot that is stealthed once placed. It will activate if an enemy gets near it, chasing them before it explodes and makes them vulnerable. Alarmbot can be recalled and redeployed after a short delay.</li>
+              <li>Nanoswarm (Basic) : Throw down a Nanoswarm grenade. The Nanoswarm is stealthed once it is deployed but will be revealed if enemies are close enough. Activate the Nanoswarm to create a damaging swarm of nanobots. This is considered a Molly.</li>
+              <li>Turret (Signature) : Deploy an automated Turret that will watch a 180 degree cone. It will automatically shoot at any enemy that enters that cone. The Turret can be recalled and redeployed after a short delay.</li>
+              <li>Lockdown (Ultimate) : Throw down a Lockdown device that takes 13 seconds to charge up. After 13 seconds, anyone caught in the large radius will be completely disabled for eight seconds.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-9"style="color: white;">BREACH</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\Breach.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Using his mechanical arms, Breach creates chaos on the field using kinetic blasts that leave the enemy concussed and blinded. Just be careful not to hit your own teammates.
+            </p>
+            <p>
+              <ul>
+              <li>Flashpoint (Basic) : Shoot Flashpoint through terrain to blind all those in its line of site when it detonates.</li>
+              <li>Aftershock (Basic) : Fire a fusion charge through a wall that will pulse twice, dealing heavy damage to anyone caught in its blast.</li>
+              <li>Fault Line (Signature) : Hold down primary fire to increase the distance Fault Line travels. Release to set it off and concuss anyone caught in its area of effect. This can go through all terrain.</li>
+              <li>Rolling Thunder (Ultimate) : Fire out a cascading quake through all terrain in front of you in a wide area. Anyone caught in its area of effect will be concussed and knocked up.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+
+      <h2 id="section-10"style="color: white;">OMEN</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\omen.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Omen is a mysterious Agent who uses his abilities to blind his enemies in darkness and get behind them by teleporting.
+            </p>
+            <p>
+              <ul>
+              <li>Paranoia (Basic) : Throw out a blinding orb from your location that will deafen and apply nearsight to any enemy hit by it. Paranoia can pass through walls.</li>
+              <li>Shrouded Step (Basic) : Select a target area and after a brief delay teleport to it.</li>
+              <li>Dark Cover (Signature) : Omen enters a phased out version of the map that he can navigate in order to throw out a shadow orb that will create Dark Cover (smoke) when it lands.</li>
+              <li>From the Shadows (Ultimate) : Opens up a map and allows you to select a place to teleport to. You will spawn at the location as a Shade first, allowing you to scout the area before confirming or cancelling the teleportation. The enemy can also shoot the Shade to prevent you from completing the teleport.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+
+      <h2 id="section-11"style="color: white;">JETT</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\Jett.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Flashy and fast, Jett dashes across the battlefield in a blur. Her kit is full of mobility that allows her to bypass obstacles and attack enemies from above.
+            </p>
+            <p>
+              <ul>
+              <li>Updraft (Basic) : Activate to propel Jett upward.</li>
+              <li>Cloudburst (Basic) : Throw out a Cloudburst that will create a short-term smoke when it lands.</li>
+              <li>Tailwind (Signature) : Activate Tailwind to prepare Jett's dash. Reactivate to quickly dash in the direction Jett was already moving.</li>
+              <li>Blade Storm (Ultimate) : Equip five blades that each deal moderate damage. Fire to throw a knife at an enemy and alt fire to throw all remaining knives at once. If a kill is scored with a knife, the ability is recharged. Knives will not be recharged if alt fire is used. Headshots with knives will deal 150 damage for an instant kill.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-12"style="color: white;">RAZE</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\RAZE.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Raze is an Agent who likes blowing things up! Her abilities reflect that and deal high area of effect damage.
+            </p>
+            <p>
+              <ul>
+              <li>Blast Pack (Basic) : Throw a Blast Pack out that will stick to any surface. Reactivate to detonate the Blast Pack damaging and moving anything hit by it. Blast Pack is primarily used to launch Raze forward in order to cross distances very quickly and catch enemies off guard.</li>
+              <li>Boom Bot (Basic) : Deploy a Boom Bot that'll travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to the first enemy in its frontal cone and chase them, exploding for heavy damage if it reaches them.</li>
+              <li>Paint Shells (Signature) : Throw a cluster grenade which, upon explosion, creates sub-munitions that deal further damage.</li>
+              <li>Showstopper (Ultimate) : Equip a rocket launcher that lasts 10 seconds. Fire the rocket to deal a massive amount of damage in a large radius.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-13"style="color: white;">SKYE</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\skye.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Skye utilizes her menagerie of beasts to gather information and enable her team.
+            </p>
+            <p>
+              <ul>
+              <li>Trailblazer (Basic) : Send out a Tasmanian Tiger that you control through its POV. When you find an enemy you can launch the Trailblazer at them to deal a small amount of damage and concuss them.</li>
+              <li>Regrowth (Basic) : Channel this ability to heal allies in a large, circular radius. Allies must all be in line of sight to be healed. This ability can be channeled multiple times until the healing energy is depleted. Skye will not be healed by this ability.</li>
+              <li>Guiding Light (Signature) : Equip a Hawk trinket that you send out and guide using your cursor. Detonate it to turn it into a flash that will blind enemies. Guiding Light will have different audio cues depending on if you flashed someone or not.</li>
+              <li>Seekers (Ultimate) : Send out three Seekers that will automatically target the three closest enemies. If the Seekers reach the enemy it will make them nearsighted. These can be destroyed.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-14"style="color: white;">YORU</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\yoru.webp" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Yoru uses the power of a relic to tear through the dimensional fabric of the world to confuse his enemies. His kit enables him to play mind games with the enemy.
+            </p>
+            <p>
+              <ul>
+              <li>Blindside (Basic) : Throw out a dimensional fragment that will blind enemies after it bounces off a hard surface.</li>
+              <li>Fakeout (Basic) : Send out a clone of Yoru that will walk forward (or be stationary with alt fire). If the enemy shoots the clone it will instantly turn toward the shooter and explode, blinding all those in its line of sight.</li>
+              <li>Gatecrash (Signature) : Send out a rift tether that will travel forward until blocked. Reactivate to teleport to the rift tether. Alt fire will send out a stationary rift tether and also trigger a fake teleport.</li>
+              <li>Dimensional Drift (Ultimate) : Yoru equips his mask relic and slips between dimensions. Yoru can run around the map without being seen by enemies and then reenter the world by reactivating Dimensional Drift or letting it time out. When near enemies, they will be warned that you are near by a blue vignette around the edge of their screen with an audio cue.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-15"style="color: white;">ASTRA</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\Astra.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Astra is one of the harder Agents to learn and utilize effectively. Her gameplay relies heavily on map knowledge and anticipating where the enemy will be to effectively place your Stars. In addition, when placing Stars on the map you are immobile and completely vulnerable to the enemy.
+            </p>
+            <p>
+              <ul>
+              <li>Nova Pulse (Basic) : Activate a Star to detonate a Nova Pulse. After a short delay it will explode and concuss any enemies caught in its blast.</li>
+              <li>Gravity Well (Basic) : Activate a Star and create a Gravity Well at that location that pulls enemies caught in it toward the center. The star will explode after a short delay and make enemies vulnerable.</li>
+              <li>Stars (Signature) : You enter Astral Form, which puts you in a bird's-eye view or the map, and you can place up to four Stars on the map. Reactivate the stars using your other abilities to create various effects.</li>
+              <li>Nebula/Dissipate (Signature/Basic) : Activate a Star to create a Nebula at that location (Smoke).</li>
+              <li>Cosmic Divide (Ultimate) : While in Astral Form, select two locations to create an infinite Cosmic Divide between the two points. This wall blocks bullets and sound for 21 seconds.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-16"style="color: white;">KAY/O</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\Kayo.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              KAY/O is a robot from the future sent back in time. No, he's not the Terminator, but he certainly feels like one. KAY/O is fighter who will enable his allies to get kills while also disabling the enemy from using their abilities.
+            </p>
+            <p>
+              <ul>
+              <li>Flash/Drive (Basic) : Throw out a flash grenade that will blind anyone in its line of sight. Blinding length depends on if thrown overhand or underhand.</li>
+              <li>Frag/Ment (Basic) : Throw out a grenade that will stick to the floor and explodes multiple times dealing damage. Damage is greater at the center of Frag/Ment's pulses.</li>
+              <li>Zero/Point (Signature) : Throw out a blade that will stick into the first terrain it hits and send out a large pulse that will suppress anyone in the zone and indicate which enemies were suppressed.</li>
+              <li>Null/CMD (Ultimate) : KAY/O overloads himself, granting himself increased firing rate, faster reload speed, and faster recovery. In addition, he periodically sends out suppressing pulses from his position. Upon death, he enters a stasis mode where he can be revived by teammates. This requires teammates to channel at his body for three seconds. If no one stabilized KAY/O within 15 seconds, he dies.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-17"style="color: white;">CHAMBER</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\c.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Chamber is a weapons master who brings his own guns to the fight. This Frenchman is deadly to deal with and the bane of many low elo players.
+            </p>
+            <p>
+              <ul>
+              <li>Headhunter (Basic) : Chamber equips a custom pistol that deals high damage. Each bullet costs 150 credits.</li>
+              <li>Trademark (Basic) : Place a trap that scans for enemies. When an enemy is spotted it will create a slowing field around them after a short delay if the Trademark is not destroyed.</li>
+              <li>Rendezvous (Signature) : Place a teleport anchor on the ground. When inside its range, Chamber can reactivate Rendezvous to instantly teleport to the anchor. Rendezvous can be recalled and redeployed.</li>
+              <li>Tour De Force (Ultimate) : Summon a custom Operator with five bullets and has a faster fire rate than a standard Operator. If an enemy is killed by Tour De Force, a slow field is created at their corpse for a short period of time.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-18"style="color: white;">NEON</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\neon.webp" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Neon is the only Agent who can sprint, allowing her to rotate faster and close the distance to the enemy at greater speed. With great speed comes greater noise, though, so be careful as your sprinting will alert everyone to your imminent arrival.
+            </p>
+            <p>
+              <ul>
+              <li>Relay Bolt (Basic) : Send out an energy bolt that will bounce off the first surface it hits and land when it hits a second. At both impact points it will create a blast that concusses any enemies caught.</li>
+              <li>Fast Lane (Basic) : Send out two walls of energy in front of Neon that block enemy vision.</li>
+              <li>High Gear (Signature) : Activate to sprint, consuming energy. Alt fire to instantly slide in any direction.</li>
+              <li>Overdrive (Ultimate) : Neon overloads herself and goes into Overdrive mode, automatically entering High Gear. She can shoot enemies with a deadly lighting bolt that is extremely accurate over long distances and while moving. This lasts 20 seconds, unless you get a kill, which refreshes the duration.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+
+      <h2 id="section-19"style="color: white;">FADE</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\fade.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Fade preys on the fear of her enemies, sending out shadowy apparitions to mark their positions and to disable enemy Agents in various ways.
+            </p>
+            <p>
+              <ul>
+              <li>Seize (Basic) : Throw out a knot of fear. You can reactivate it to make the knot of fear drop early. When it lands, it will Seize enemies in a small radius and hold them in place. Enemies are also deafened and decayed when Seized.</li>
+              <li>Prowler (Basic) : Send out a Prowler that you control with your cursor. It will chase down the first enemy it sees. If it makes contact with them it will nearsight them. If there is a Terror Trail out, the Prowler will immediately lock onto it and chase down that person. Enemies can destroy the Prowler.</li>
+              <li>Haunt (Signature) : Throw out a ball of dark energy that will reveal and mark any enemy and create Terror Trails to them. When throwing out the Haunt, you can reactivate it to make the ball drop straight down and activate early. Enemies can destroy the Haunt before it marks them.</li>
+              <li>Nightfall (Ultimate) : Send out a wave of dark energy in front of you that goes through terrain and marks any enemies hit by it, creating Terror Trails, deafening them, and inflicting decay on them.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-20"style="color: white;">HARBOR</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\HArbor.webp" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Using the power of a relic, Harbor is a master of water. His gameplay will create walls of water that cut off angles and protect his allies.
+            </p>
+            <p>
+              <ul>
+              <li>Cove (Basic) : Harbor creates a circular ball of water that acts as a shield from bullets. The shield has 500HP. Once the shield is broken, Cove acts as a smoke.</li>
+              <li>Cascade (Basic) : Harbor sends out a vertical wave of water forward. You can reactivate to stop the wall at any time. Players hit by the wall are slowed.</li>
+              <li>High Tide (Signature) : Harbor sends out a wall of water that you can guide by moving your crosshair. Enemies that pass through the wall are slowed.</li>
+              <li>Reckoning (Ultimate) : Harbor will activate his artifact to summon a geyser in a large area in front of him. The geyser will pulse at wherever enemies are and create a small circle that will concuss them after a short delay if they do not move.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-21"style="color: white;">GEKKO</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\gekko.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Gekko uses his abilities (the four creatures) to blind, confuse, and disable the enemy. While his abilities can be considered weaker than other Agents' abilities that do the same thing, Gekko's abilities are rechargeable if he picks them up after use, with the exception of Mosh Pit.
+            </p>
+            <p>
+              <ul>
+              <li>Wingman (Basic) : Send Wingman forward in a straight line to seek out enemies. If he finds an enemy he will explode in a concussive blast. When sent out, he will bounce off of walls. In addition, if Gekko is carrying the Spike, you can use alt fire to have Wingman plant the Spike. On defense, Gekko can send Wingman out to defuse the Spike. Enemies can shoot Wingman.</li>
+              <li>Mosh Pit (Basic) : Throw Mosh out like a grenade. He will explode on impact and spread out to cover a large area that does damage to anyone in it. This is considered a Molly.</li>
+              <li>Dizzy (Signature) : Throw Dizzy out. After a short delay, Dizzy will send out plasma blasts at enemies caught in her line of sight that will blind them. Dizzy can be shot before the plasma blasts are sent out and the plasma blasts can be avoided after they are shot.</li>
+              <li>Thrash (Ultimate) : Send out Thrash, controlling her through her POV. Hit the fire button to have Thrash jump toward an area. All players caught in the radius of the explosion are completely disabled for six seconds. Enemies can shoot Thrash.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-22"style="color: white;">DEADLOCK</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\deadlock.jpg" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Deadlock is a Norwegian hunter who stops enemies in their tracks using nets and walls, cutting off avenues of attack for the enemy and forcing them into singular chokepoints.
+            </p>
+            <p>
+              <ul>
+              <li>Sonic Sensor (Basic) : Deploy a Sonic Sensor that monitors an area for loud noises. It will be triggered by footsteps, weapons fire, or other significant noise and concuss the area</li>
+              <li>Gravnet (Basic) : Throw out a Gravnet that detonates when it lands. It will force any enemies caught to crouch and move slowely.</li>
+              <li>Barrier Mesh (Signature) : Throw out the Barrier Mesh to create a destructible wall when it lands. Unlike Sage's Barrier Orb, the Barrier Mesh can be shot through by everyone. In order to destroy it, the anchor points at the bottom of it must be destroyed.</li>
+              <li>Annihilation (Ultimate) : Unleash a pulse of nanowires that will capture the first enemy contacted. The enemy is put into a cocoon and will automatically travel toward the origin point of where Annihilation was cast. If the cocoon reaches the origin point the enemy is immediately killed. Enemies can break their ally out of the cocoon by shooting it.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="section-23"style="color: white;">ISO</h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\SHADOW\Pictures\GRB\iso.png" class="img-fluid mb-3" alt="Your Image">
+          </div>
+          <div class="col-md-6">
+            <p>
+              Iso is a deadly Duelist has a unique set of abilities. Most of them directly depend on the gun mechanics of a player. If your gun play is good, Iso is the right pick for you.
+            </p>
+            <p>
+              <ul>
+              <li>CONTINGENCY (Basic): Equip to assemble prismatic energy. Fire to push an indestructible wall of energy forward that blocks bullets.</li>
+              <li>UNDERCUT (Basic): Equip a molecular bolt. Fire to throw it forward, applying a brief 'fragile' to all players it touches. The bolt can pass through solid objects, including walls.</li>
+              <li>DOUBLE TAP (Signature): Start a focus timer. Once completed, enter a flow state during which downed enemies you kill or damage generate an energy orb. Shooting this orb grants you a shield which absorbs one instance of damage from any source.</li>
+              <li>KILL CONTRACT (Ultimate): Equip an interdimensional arena. Fire to hurl a column of energy through the battlefield, pulling you and the first enemy hit into the arena. You and your opponent duel to the death.</li>
+              </ul>
+            </p><br>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+      <footer>
+        <p>&copy; 2023. All rights reserved.</p>
+      </footer>
+
+    </body>
+</html>
