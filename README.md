@@ -1,2 +1,5 @@
-# W
-websites
+- 👋 Hi, I’m @Aditya-Desai09
+- 👀 I’m interested in coding and learning new tech...
+- 🌱 I’m currently learning Computer Science at KJ college Pune
+- 📫 How to reach me adidesai119@gmail.com
+- ⚡ Plus : I Love Games like Valorant, Genshin Impact, Overwatch2, NFS series and many many more.....
